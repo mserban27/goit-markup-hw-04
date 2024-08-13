@@ -312,8 +312,13 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.social-links-icons:hover {
-  background-color: #31d0aa;
+.svg-images {
+  fill: var(--cloud-text);
+}
+
+.social-links-icons:hover,
+.social-links-icons:focus {
+  background-color: var(--ocean);
 }
 
 .social-list {
