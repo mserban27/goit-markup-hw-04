@@ -315,8 +315,8 @@ body {
   fill: var(--cloud-text);
 }
 
-.social-links-icons:hover,
-.social-links-icons:focus {
+.footer-social:hover,
+.footer-social:focus {
   background-color: var(--ocean);
 }
 
