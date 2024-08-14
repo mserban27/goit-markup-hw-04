@@ -315,11 +315,6 @@ body {
   fill: var(--cloud-text);
 }
 
-.footer-social:hover,
-.footer-social:focus {
-  background-color: var(--ocean);
-}
-
 .social-list {
   display: flex;
   gap: 16px;
@@ -482,6 +477,17 @@ body {
 
 .footer-svg {
   fill: #f4f4fd; 
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-icon-list {
+  width: 24px;
+  height: 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-text-paragraph {
